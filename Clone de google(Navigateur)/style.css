@@ -1,0 +1,105 @@
+@import url(./assets/Arimo-Medium.ttf);
+body{
+  font-family: 'Arimo-Medium';
+  height: 100%;
+}
+*{
+  margin: 2px;
+}
+
+/*************** Partie Header ***************/
+header{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+  width: 100%;
+}
+.left{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+  width: 100px;
+}
+.right{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+  width: 200px;
+} 
+svg{
+  height: 35px;
+}
+img{
+  height: 35px;
+  border-radius: 100%;
+}
+a{
+  text-decoration: none;
+  color: black;
+  user-select: none;
+}
+a:hover{
+  color: rgb(143, 36, 36);
+}
+.left p:hover{
+  color:aqua;
+  cursor: pointer;
+}
+/********** Fin de la Partie Header **********/
+
+/*************** Partie Principal ***************/
+
+
+
+
+/********** Fin de la Partie Principal **********/
+main{
+  height: 80%;
+  margin-top: 15%;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+.google{
+  border-radius: 0%;
+  height: 50%;
+  width: 50%;
+  max-width: 700px;
+  max-height: 250px;
+}
+.from-group{
+  display: flex;
+	flex-direction:column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  width: 100%;
+}
+img{
+  height: 20px;
+} 
+input{
+  height: 30px;
+  width: 70%;
+  border-radius: 10px;
+  border: 1px solid black;
+  
+}
+.micro{
+  float: right;
+  cursor: pointer;
+  
+
+}
